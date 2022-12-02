@@ -16,5 +16,7 @@ En este script se proporcinaban unos csv que no son para nada cómodos de usar, 
 - Por otro lado, existían números negativos en la cantidad, lo cual es incorrecto. Del mismo modo, teníamos cantidades dadas por el literal del número correspondiente, es decir, "One" en vez de 1. Por lo tanto, sustituimos el literal por su correspondiente valor numérico y las cantidades simplemente las pasábamos a positivo.
 - La separación de las palabras de las pizzas era también diferente entre las distintas filas. Por lo que hubo que pasarlas todas al mismo formato y que estuvieran separadas por "_", así coincidía con el formato del resto de ficheros.
 - Por último, para las fechas he utilizado una librería llamada "dateutils" que es capaz de transformar prácticamente cualquier formato de fecha al deseado. Simlemente tuve que hacer una distinción entre el formato que lo daba en la cantidad de segundos y el que tenía día, mes y año, o similar. Para ello, la función "timestamp" de la librería "time", transformaría dicho formato al deseado. 
+
 En la elaboración del programa se ha seguido una estructura ETL. Para poder calcular la predicción de los ingredientes necesarios, hemos seguido el mismo procedimiento que para "Maven pizzas".
+
 Posteriormente, dichos datos son exportados a un csv, llamado "2017_prediction.csv".
