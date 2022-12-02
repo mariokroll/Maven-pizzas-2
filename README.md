@@ -1,6 +1,6 @@
 # Maven pizzas 2
 ## Archivos
-- pizzas.py: script de python que hace una predicción de los ingredientes para 2016.
+- pizzas2.py: script de python que hace una predicción de los ingredientes para 2016.
 - order_details.csv: fichero que contiene información sobre la cantidad de pizzas ordenadas en un pedido y el identificador del pedido.
 - orders.csv: fichero que contiene información sobre las fechas del pedido, al igual que el identificador del pedido.
 - pizza_types.csv: fichero que contiene información sobre cada tipo de pizza, como una descripción y los ingredientes que la conforman.
