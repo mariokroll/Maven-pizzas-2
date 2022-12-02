@@ -6,7 +6,7 @@
 - pizza_types.csv: fichero que contiene información sobre cada tipo de pizza, como una descripción y los ingredientes que la conforman.
 - pizzas.csv: fichero que contiene información sobre el precio de cada pizza en relación a su tamaño.
 - data_dictionary.csv: fichero que contiene información sobre los csv previamente descritos.
-- data_info.csv: resumen de los datos proporcionados (número de NaN, Null, tipo de cada columna...).
+- data_info.xml: resumen de los datos proporcionados (número de NaN, Null, tipo de cada columna...).
 - 2017_prediction.csv: fichero que contiene la predicción de ingredientes de cada semana para un año.
 - requirements.txt: fichero de texto que contiene las librerías necesarias y sus versiones para la ejecución del script.
 
