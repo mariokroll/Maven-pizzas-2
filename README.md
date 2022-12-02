@@ -8,6 +8,7 @@
 - data_dictionary.csv: fichero que contiene información sobre los csv previamente descritos.
 - data_info.csv: resumen de los datos proporcionados (número de NaN, Null, tipo de cada columna...).
 - 2017_prediction.csv: fichero que contiene la predicción de ingredientes de cada semana para un año.
+- requirements.txt: fichero de texto que contiene las librerías necesarias y sus versiones para la ejecución del script.
 
 ## Descripción del script
 En este script se proporcinaban unos csv que no son para nada cómodos de usar, pues estaban plagados de casillas vacías, casillas con formato distinto al de la columna y fechas dadas de todas las maneras posibles. El procedimiento para tratar con ellos se divide en varias partes:
